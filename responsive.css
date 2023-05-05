@@ -16,6 +16,10 @@
     max-width: 500px;
   }
 
+  .theme-title{
+    display: none;
+  }
+
   .puzzles{
     width: 100vw;
     display: flex;
@@ -24,7 +28,6 @@
     align-items: center;
     row-gap: 20px;
     margin: auto;
-    
   }
   
   .demo-image{

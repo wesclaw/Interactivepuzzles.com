@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.play-body{
+  background-color: rgb(44, 44, 88);
+  overflow-x: hidden;
+}
+
+.top-btns{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reset-btn{
+  font-weight: bold;
+  padding: 10px 50px;
+  background-color: rgb(207, 91, 70);
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.reset-btn:hover{
+  background-color: rgba(207, 91, 70, 0.829);
+}
+
+.home-btn{
+  font-weight: bold;
+  padding: 10px 50px;
+  background-color: rgb(45, 180, 79);
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-btn:hover{
+  background-color:rgba(45, 180, 79, 0.795);
+}
+
+.puzzles{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.demo-image{
+  width: 800px;
+  height: 800px;
+}
+
+.edit-box{
+  border-style: dashed;
+  width: 800px;
+  height: 800px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.671);
+}
+
+.items-box{
+  width: 100vw;
+  max-height: 400px;
+  border-style: inset;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.699);
+  background-color: rgba(196, 210, 219, 0.527);
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  flex-wrap: wrap;
+}
+
+.reverse{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row-reverse;
+}
+
+.draggable{
+  touch-action: none;
+  user-select: none;
+}
+
+.sky{
+  width: 795px;
+}
+
+.sun{
+  width: 450px;
+}
+
+.cloud-bg{
+  width: 795px;
+}
+
+.bg-mount{
+ width: 795px;
+}
+
+.top-sand{
+  width: 795px;
+}
+
+.bottom-sand{
+  width: 795px;
+}
+
+.ocean{
+  width: 795px;
+}
+
+
+.cloud{
+  width: 16rem;
+}
+
+
+.cloud2{
+  width: 8rem;
+}
+
+
+.cloud3{
+  width: 11.5rem;
+}
+
+.tree-1 {
+  width: 12rem;
+}
+
+
+.tree-2 {
+  width: 7.5rem;
+}
+
+
+.coconut1{
+  width: 1rem;
+}
+
+
+.coconut2{
+  width: .7rem;
+}
+
+
+.wood-boat{
+  width: 18.5rem;
+}
+
+
+.fishing-pole{
+  width: 12rem;
+}
+
+
+.man{
+  width: 5.2rem;
+}
+
+
+.caught-fish{
+  width: 1.3rem;
+}
+
+
+.bg-fish{
+  width: 1.9rem;
+}
+
+
+.diver{
+  width: 8.5rem;
+}
+
+
+.shark{
+  width: 13rem;
+}
+
+
+.pink-fish{
+  width: 2.9rem;
+}
+
+
+.orange-fish{
+  width: 2rem;
+}
+
+
+.crab{
+  width: 4.5rem;
+}
+
+
+.seaweed{
+  width: 8rem;
+}
+
+
+.rock-left{
+  width: 10rem;
+}
+
+
+.blue-fish{
+  width: 2.9rem;
+}
+
+
+.pink-coral{
+  width: 6.2rem;
+}
+
+
+.orange-plant{
+  width: 4.3rem;
+}
+
+
+.blue-coral{
+  width: 8.9rem;
+}
+
+
+.orange-coral{
+  width: 11rem;
+}
+
+
+.pink-plant{
+  width: 6.3rem;
+}
+
+
+.seaweed1{
+  width: 7rem;
+}
+
+
+.rock-right{
+  width: 13rem;
+}
+
+
+

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Titan+One&display=swap');
+
+:root{
+  --theme-btn: rgba(46, 176, 236, 0.829);
+  --play-btn: rgba(43, 189, 133, 0.829);
+  --font-fam: 'Titan One', cursive;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  background-image: url(sea-theme/output-onlinepngtools-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200vh;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  margin-bottom: 180px;
+}
+
+.actions{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.theme-btn{
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: var(--theme-btn);
+  letter-spacing: .05rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.theme-btn:hover{
+  box-shadow: 0px 0px 10px rgba(0, 87, 128, 0.438);
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: .3rem;
+  font-family: var(--font-fam);
+  color: rgba(0, 0, 0, 0.705);
+  margin-bottom: 20px;
+}
+
+.play-btn{
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color:var(--play-btn);
+  letter-spacing: .05rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.play-btn:hover{
+  box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.39);
+}
+
+h2{
+  font-size: 2rem;
+  font-family: var(--font-fam);
+  color: rgba(0, 0, 0, 0.664);
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.themes{
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 50px;
+  justify-content: center;
+}
+
+.theme{
+  background-color: rgba(255, 255, 255, 0.452);
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.432);
+  resize: none;
+  padding: 15px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  min-height: 300px;
+  background-image: url(sea-theme/wesleyknudso673-01_1_-min.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.castle-theme{
+  background-image: url(castle-theme/wesleyknudso673Castle_send.png);
+}
+
+.theme-title{
+  position: relative;
+  bottom: -110%;
+  color: rgba(0, 0, 0, 0.74);
+  text-transform: uppercase;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+.theme:hover{
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.384);
+  transition: all 200ms ease;
+  cursor: pointer;
+  text-decoration: underline;
+}
+

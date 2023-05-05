@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.castle-body{
+  background-color: rgb(44, 44, 88);
+  overflow-x: hidden;
+}
+
+.top-btns{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reset-btn{
+  font-weight: bold;
+  padding: 10px 50px;
+  background-color: rgb(207, 91, 70);
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.reset-btn:hover{
+  background-color: rgba(207, 91, 70, 0.829);
+}
+
+.home-btn{
+  font-weight: bold;
+  padding: 10px 50px;
+  background-color: rgb(45, 180, 79);
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-btn:hover{
+  background-color:rgba(45, 180, 79, 0.795);
+}
+
+.puzzles{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.demo-image{
+  width: 800px;
+  height: 800px;
+}
+
+.edit-box{
+  border-style: dashed;
+  width: 800px;
+  height: 800px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.671);
+}
+
+.draggable{
+  touch-action: none;
+  user-select: none;
+}
+
+.items-box{
+  width: 100vw;
+  max-height: 400px;
+  border-style: inset;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.699);
+  background-color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  flex-wrap: wrap;
+}
+
+.moon{
+  width: 200px;
+  height: 200px;
+}
+
+.sky{
+  width: 799px;
+  height: 500px;
+}
+
+.mountains-bg{
+  width: 799px;
+  height: 650px;
+}
+
+.main-trees{
+  width: 799px;
+  height: 400px;
+}
+
+.cliff{
+  width: 600px;
+  height: 440px;
+}
+
+.cave{
+  width: 300px;
+  height: 150px;
+}
+
+.tree1{
+  height: 250px;
+  width: 120px;
+}
+
+.tree2{
+  width: 80px;
+  height: 150px;
+}
+
+.tree3{
+  height: 250px;
+  width: 120px;
+}
+
+.waterfall{
+  width: 300px;
+  height: 270px;
+}
+
+.cloud{
+  width: 170px;
+  height: 50px;
+}
+
+.cloud2{
+  width: 100px;
+  height: 25px;
+}
+
+.cloud3{
+  width: 140px;
+  height: 25px;
+}
+
+.cloud4{
+  width: 230px;
+  height: 50px;
+}
+
+.under-big-triangle{
+  width: 75px;
+  height: 75px;
+}
+
+.for-the-missing-top{
+  width: 50px;
+  height: 80px;
+}
+
+.no-top-flag{
+  width: 55px;
+  height: 60px;
+}
+
+.biggest-wall{
+  width: 95px;
+  height: 130px;
+}
+
+.wall-next-to-far-left-behind{
+  width: 90px;
+  height: 90px;
+}
+
+.far-left{
+  width: 60px;
+  height: 120px;
+}
+
+.big-right-tower{
+  height: 120px;
+  width: 60px;
+}
+
+.left-wall{
+  width: 60px;
+  height: 70px;
+}
+
+.right-wall{
+  width: 60px;
+  height: 70px;
+}
+
+.for-the-door-wall{
+  width: 80px;
+  height: 70px;
+}
+
+.double-left-far{
+  height: 120px;
+  width: 60px;
+}
+
+.door{
+  width: 45px;
+  height: 45px;
+}
+
+.left-next-to-door-tower{
+  height: 110px;
+  width: 60px;
+}
+
+.right-next-to-door-tower{
+  height: 110px;
+  width: 60px;
+}
+
+.main-flag{
+  height: 40px;
+  width: 40px;
+}
+
+.the-missing-triangle{
+  width: 45px;
+  height: 70px;
+}
+
+.triangle-top{
+  width: 80px;
+  height: 90px;
+}
+
+.triangleone{
+  width: 40px;
+  height: 50px;
+}
+
+.triangle{
+  width: 40px;
+  height: 50px;
+}
+
+.last-flag{
+  height: 30px;
+  width: 30px;
+}
+
+.left-flag{
+  height: 30px;
+  width: 30px;
+}
+
+.smallest-right-tower{
+  height: 80px;
+  width: 40px;
+}
+
+.bat1{
+  width: 70px;
+  height: 40px;
+}
+
+.bat2{
+  width: 60px;
+  height: 30px;
+}
+
+.bat3{
+  width: 60px;
+  height: 30px;
+}
+
+.bat4{
+  width: 75px;
+  height: 40px;
+}
+

@@ -1,0 +1,1590 @@
+@media(max-width: 1000px){
+
+  body{
+    background-position: left;
+  }
+
+  .play-body{
+    overflow-x: hidden;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+
+  h1{
+    max-width: 500px;
+  }
+
+  .puzzles{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: auto;
+    
+  }
+  
+  .demo-image{
+    width: 700px;
+    height: 700px;
+  }
+  
+  .edit-box{
+    border-style: dashed;
+    width: 700px;
+    height: 700px;
+  }
+
+  
+.sky{
+  width: 695px;
+}
+
+.sun{
+  width: 400px;
+}
+
+.cloud-bg{
+  width: 695px;
+}
+
+.bg-mount{
+ width: 695px;
+}
+
+.top-sand{
+  width: 695px;
+}
+
+.bottom-sand{
+  width: 695px;
+}
+
+.ocean{
+  width: 695px;
+}
+
+
+.cloud{
+  width: 14rem;
+}
+
+
+.cloud2{
+  width: 8rem;
+}
+
+
+.cloud3{
+  width: 11rem;
+}
+
+.tree-1 {
+  width: 10rem;
+}
+
+
+.tree-2 {
+  width: 7rem;
+}
+
+
+.coconut1{
+  width: 1rem;
+}
+
+
+.coconut2{
+  width: .7rem;
+}
+
+
+.wood-boat{
+  width: 16.5rem;
+}
+
+
+.fishing-pole{
+  width: 10rem;
+}
+
+
+.man{
+  width: 4.5rem;
+}
+
+
+.caught-fish{
+  width: 1.2rem;
+}
+
+
+.bg-fish{
+  width: 1.5rem;
+}
+
+
+.diver{
+  width: 8rem;
+}
+
+
+.shark{
+  width: 12rem;
+}
+
+
+.pink-fish{
+  width: 2.5rem;
+}
+
+
+.orange-fish{
+  width: 2rem;
+}
+
+
+.crab{
+  width: 4.2rem;
+}
+
+
+.seaweed{
+  width: 7rem;
+}
+
+
+.rock-left{
+  width: 8.4rem;
+}
+
+
+.blue-fish{
+  width: 2.7rem;
+}
+
+
+.pink-coral{
+  width: 5.5rem;
+}
+
+
+.orange-plant{
+  width: 4.3rem;
+}
+
+
+.blue-coral{
+  width: 8.9rem;
+}
+
+
+.orange-coral{
+  width: 10rem;
+}
+
+
+.pink-plant{
+  width: 5.5rem;
+}
+
+
+.seaweed1{
+  width: 6rem;
+}
+
+
+.rock-right{
+  width: 11rem;
+}
+
+ 
+}
+
+
+
+@media(max-width: 700px){
+
+
+  html{
+    overflow-x: hidden;
+  }
+
+  body{
+    background-position: right;
+  }
+
+  .play-body{
+    overflow-x: hidden;
+    
+  }
+
+  .actions{
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .theme-title{
+    font-size: 1.2rem;
+  }
+
+  .puzzles{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: auto;
+    
+  }
+  
+  .demo-image{
+    width: 400px;
+    height: 400px;
+  }
+  
+  .edit-box{
+    border-style: dashed;
+    width: 400px;
+    height: 400px;
+  }
+
+  .sky{
+    width: 395px;
+  }
+  
+  .sun{
+    width: 220px;
+  }
+  
+  .cloud-bg{
+    width: 395px;
+  }
+  
+  .bg-mount{
+   width: 395px;
+  }
+  
+  .top-sand{
+    width: 395px;
+  }
+  
+  .bottom-sand{
+    width: 395px;
+  }
+  
+  .ocean{
+    width: 395px;
+  }
+  
+  
+  .cloud{
+    width: 7rem;
+  }
+  
+  
+  .cloud2{
+    width: 4rem;
+  }
+  
+  
+  .cloud3{
+    width: 5rem;
+  }
+  
+  .tree-1 {
+    width: 6rem;
+  }
+  
+  
+  .tree-2 {
+    width: 3.5rem;
+  }
+  
+  
+  .coconut1{
+    width: .7rem;
+  }
+  
+  
+  .coconut2{
+    width: .5rem;
+  }
+  
+  
+  .wood-boat{
+    width: 9rem;
+  }
+  
+  
+  .fishing-pole{
+    width: 6rem;
+  }
+  
+  
+  .man{
+    width: 2.7rem;
+  }
+  
+  
+  .caught-fish{
+    width: 1rem;
+  }
+  
+  
+  .bg-fish{
+    width: 1rem;
+  }
+  
+  
+  .diver{
+    width: 4.5rem;
+  }
+  
+  
+  .shark{
+    width: 7rem;
+  }
+  
+  
+  .pink-fish{
+    width: 1.5rem;
+  }
+  
+  
+  .orange-fish{
+    width: 1.5rem;
+  }
+  
+  
+  .crab{
+    width: 2.6rem;
+  }
+  
+  
+  .seaweed{
+    width: 3.5rem;
+  }
+  
+  
+  .rock-left{
+    width: 5rem;
+  }
+  
+  
+  .blue-fish{
+    width: 1.5rem;
+  }
+  
+  
+  .pink-coral{
+    width: 3rem;
+  }
+  
+  
+  .orange-plant{
+    width:2.5rem;
+  }
+  
+  
+  .blue-coral{
+    width: 4rem;
+  }
+  
+  
+  .orange-coral{
+    width: 5rem;
+  }
+  
+  
+  .pink-plant{
+    width: 3rem;
+  }
+  
+  
+  .seaweed1{
+    width: 3rem;
+  }
+  
+  
+  .rock-right{
+    width: 6rem;
+  }
+
+ 
+}
+
+@media(max-width:414px){
+  .puzzles{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: auto;
+  }
+
+  .play-body{
+    overflow-x: hidden;
+  }
+  
+  .demo-image{
+    width: 400px;
+    height: 400px;
+  }
+  
+  .edit-box{
+    border-style: dashed;
+    width: 400px;
+    height: 400px;
+  }
+
+  .sky{
+    width: 395px;
+  }
+  
+  .sun{
+    width: 220px;
+  }
+  
+  .cloud-bg{
+    width: 395px;
+  }
+  
+  .bg-mount{
+   width: 395px;
+  }
+  
+  .top-sand{
+    width: 395px;
+  }
+  
+  .bottom-sand{
+    width: 395px;
+  }
+  
+  .ocean{
+    width: 395px;
+  }
+  
+  
+  .cloud{
+    width: 7rem;
+  }
+  
+  
+  .cloud2{
+    width: 4rem;
+  }
+  
+  
+  .cloud3{
+    width: 5rem;
+  }
+  
+  .tree-1 {
+    width: 6rem;
+  }
+  
+  
+  .tree-2 {
+    width: 5rem;
+  }
+  
+  
+  .coconut1{
+    width: .8rem;
+  }
+  
+  
+  .coconut2{
+    width: .7rem;
+  }
+  
+  
+  .wood-boat{
+    width: 9rem;
+  }
+  
+  
+  .fishing-pole{
+    width: 6rem;
+  }
+  
+  
+  .man{
+    width: 2.7rem;
+  }
+  
+  
+  .caught-fish{
+    width: 1rem;
+  }
+  
+  
+  .bg-fish{
+    width: 1.5rem;
+  }
+  
+  
+  .diver{
+    width: 5rem;
+  }
+  
+  
+  .shark{
+    width: 7rem;
+  }
+  
+  
+  .pink-fish{
+    width: 1.5rem;
+  }
+  
+  
+  .orange-fish{
+    width: 1.5rem;
+  }
+  
+  
+  .crab{
+    width: 2.6rem;
+  }
+  
+  
+  .seaweed{
+    width: 3.5rem;
+  }
+  
+  
+  .rock-left{
+    width: 5rem;
+  }
+  
+  
+  .blue-fish{
+    width: 1.5rem;
+  }
+  
+  
+  .pink-coral{
+    width: 3rem;
+  }
+  
+  
+  .orange-plant{
+    width:2.5rem;
+  }
+  
+  
+  .blue-coral{
+    width: 4rem;
+  }
+  
+  
+  .orange-coral{
+    width: 5rem;
+  }
+  
+  
+  .pink-plant{
+    width: 3rem;
+  }
+  
+  
+  .seaweed1{
+    width: 3rem;
+  }
+  
+  
+  .rock-right{
+    width: 6rem;
+  }
+
+}
+
+@media(max-width:400px){
+  .puzzles{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: auto;
+  }
+
+  .play-body{
+    overflow-x: hidden;
+  }
+  
+  .demo-image{
+    width: 370px;
+    height: 370px;
+  }
+  
+  .edit-box{
+    border-style: dashed;
+    width: 370px;
+    height: 370px;
+  }
+
+  .sky{
+    width: 365px;
+  }
+  
+  .sun{
+    width: 190px;
+  }
+  
+  .cloud-bg{
+    width: 365px;
+  }
+  
+  .bg-mount{
+   width: 365px;
+  }
+  
+  .top-sand{
+    width: 365px;
+  }
+  
+  .bottom-sand{
+    width: 365px;
+  }
+  
+  .ocean{
+    width: 365px;
+  }
+  
+  
+  .cloud{
+    width: 8rem;
+  }
+  
+  
+  .cloud2{
+    width: 4.5rem;
+  }
+  
+  
+  .cloud3{
+    width: 5.5rem;
+  }
+  
+  .tree-1 {
+    width: 5.5rem;
+  }
+  
+  
+  .tree-2 {
+    width: 3.5rem;
+  }
+  
+  
+  .coconut1{
+    width: .6rem;
+  }
+  
+  
+  .coconut2{
+    width: .7rem;
+  }
+  
+  
+  .wood-boat{
+    width: 8.5rem;
+  }
+  
+  
+  .fishing-pole{
+    width: 5rem;
+  }
+  
+  
+  .man{
+    width: 2.4rem;
+  }
+  
+  
+  .caught-fish{
+    width: 1rem;
+  }
+  
+  
+  .bg-fish{
+    width: 1.2rem;
+  }
+  
+  
+  .diver{
+    width: 4.3rem;
+  }
+  
+  
+  .shark{
+    width: 6.5rem;
+  }
+  
+  
+  .pink-fish{
+    width: 1.4rem;
+  }
+  
+  
+  .orange-fish{
+    width: 1.4rem;
+  }
+  
+  
+  .crab{
+    width: 2.5rem;
+  }
+  
+  
+  .seaweed{
+    width: 3.5rem;
+  }
+  
+  
+  .rock-left{
+    width: 5rem;
+  }
+  
+  
+  .blue-fish{
+    width: 1.2rem;
+  }
+  
+  
+  .pink-coral{
+    width: 3rem;
+  }
+  
+  
+  .orange-plant{
+    width:2rem;
+  }
+  
+  
+  .blue-coral{
+    width: 4rem;
+  }
+  
+  
+  .orange-coral{
+    width: 5rem;
+  }
+  
+  
+  .pink-plant{
+    width: 3rem;
+  }
+  
+  
+  .seaweed1{
+    width: 3rem;
+  }
+  
+  
+  .rock-right{
+    width: 6rem;
+  }
+
+
+}
+
+
+@media(max-width:390px){
+  .puzzles{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: auto;
+  }
+
+  .play-body{
+    overflow-x: hidden;
+  }
+  
+  .demo-image{
+    width: 370px;
+    height: 370px;
+  }
+  
+  .edit-box{
+    border-style: dashed;
+    width: 370px;
+    height: 370px;
+  }
+
+  .sky{
+    width: 369px;
+  }
+  
+  .sun{
+    width: 200px;
+  }
+  
+  .cloud-bg{
+    width: 367px;
+  }
+  
+  .bg-mount{
+   width: 369px;
+  }
+  
+  .top-sand{
+    width: 369px;
+  }
+  
+  .bottom-sand{
+    width: 369px;
+  }
+  
+  .ocean{
+    width: 369px;
+  }
+  
+  
+  .cloud{
+    width: 8rem;
+  }
+  
+  
+  .cloud2{
+    width: 4.5rem;
+  }
+  
+  
+  .cloud3{
+    width: 5.5rem;
+  }
+  
+  .tree-1 {
+    width: 5.5rem;
+  }
+  
+  
+  .tree-2 {
+    width: 3.5rem;
+  }
+  
+  
+  .coconut1{
+    width: .6rem;
+  }
+  
+  
+  .coconut2{
+    width: .7rem;
+  }
+  
+  
+  .wood-boat{
+    width: 8.5rem;
+  }
+  
+  
+  .fishing-pole{
+    width: 5rem;
+  }
+  
+  
+  .man{
+    width: 2.4rem;
+  }
+  
+  
+  .caught-fish{
+    width: 1rem;
+  }
+  
+  
+  .bg-fish{
+    width: 1.2rem;
+  }
+  
+  
+  .diver{
+    width: 4.3rem;
+  }
+  
+  
+  .shark{
+    width: 6.5rem;
+  }
+  
+  
+  .pink-fish{
+    width: 1.4rem;
+  }
+  
+  
+  .orange-fish{
+    width: 1.4rem;
+  }
+  
+  
+  .crab{
+    width: 2.5rem;
+  }
+  
+  
+  .seaweed{
+    width: 3.5rem;
+  }
+  
+  
+  .rock-left{
+    width: 5rem;
+  }
+  
+  
+  .blue-fish{
+    width: 1.2rem;
+  }
+  
+  
+  .pink-coral{
+    width: 3rem;
+  }
+  
+  
+  .orange-plant{
+    width:2rem;
+  }
+  
+  
+  .blue-coral{
+    width: 4rem;
+  }
+  
+  
+  .orange-coral{
+    width: 5rem;
+  }
+  
+  
+  .pink-plant{
+    width: 3rem;
+  }
+  
+  
+  .seaweed1{
+    width: 3rem;
+  }
+  
+  
+  .rock-right{
+    width: 6rem;
+  }
+
+}
+
+@media(max-width:375px){
+  .puzzles{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: auto;
+    
+  }
+
+  .play-body{
+    overflow-x: hidden;
+  }
+  
+  .demo-image{
+    width: 355px;
+    height: 355px;
+  }
+  
+  .edit-box{
+    border-style: dashed;
+    width: 355px;
+    height: 355px;
+  }
+
+  
+.sky{
+  width: 350px;
+}
+
+.sun{
+  width: 200px;
+}
+
+.cloud-bg{
+  width: 350px;
+}
+
+.bg-mount{
+ width: 350px;
+}
+
+.top-sand{
+  width: 350px;
+}
+
+.bottom-sand{
+  width: 350px;
+}
+
+.ocean{
+  width: 350px;
+}
+
+
+.cloud{
+  width: 7rem;
+}
+
+
+.cloud2{
+  width: 4rem;
+}
+
+
+.cloud3{
+  width: 5rem;
+}
+
+.tree-1 {
+  width: 5rem;
+}
+
+
+.tree-2 {
+  width: 3.5rem;
+}
+
+
+.coconut1{
+  width: .5rem;
+}
+
+
+.coconut2{
+  width: .6rem;
+}
+
+
+.wood-boat{
+  width: 8rem;
+}
+
+
+.fishing-pole{
+  width: 5rem;
+}
+
+
+.man{
+  width: 2.3rem;
+}
+
+
+.caught-fish{
+  width: 1rem;
+}
+
+
+.bg-fish{
+  width: 1rem;
+}
+
+
+.diver{
+  width: 4rem;
+}
+
+
+.shark{
+  width: 6rem;
+}
+
+
+.pink-fish{
+  width: 1.2rem;
+}
+
+
+.orange-fish{
+  width: 1.2rem;
+}
+
+
+.crab{
+  width: 2.5rem;
+}
+
+
+.seaweed{
+  width: 3.5rem;
+}
+
+
+.rock-left{
+  width: 5rem;
+}
+
+
+.blue-fish{
+  width: 1.2rem;
+}
+
+
+.pink-coral{
+  width: 3rem;
+}
+
+
+.orange-plant{
+  width:2rem;
+}
+
+
+.blue-coral{
+  width: 4rem;
+}
+
+
+.orange-coral{
+  width: 5rem;
+}
+
+
+.pink-plant{
+  width: 3rem;
+}
+
+
+.seaweed1{
+  width: 3rem;
+}
+
+
+.rock-right{
+  width: 6rem;
+}
+
+
+
+
+}
+
+@media(max-width:360px){
+  .puzzles{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: auto;
+    
+  }
+
+  .play-body{
+    overflow-x: hidden;
+  }
+  
+  .demo-image{
+    width: 350px;
+    height: 350px;
+  }
+  
+  .edit-box{
+    border-style: dashed;
+    width: 350px;
+    height: 350px;
+  }
+   
+.sky{
+  width: 345px;
+}
+
+.sun{
+  width: 200px;
+}
+
+.cloud-bg{
+  width:345px;
+}
+
+.bg-mount{
+ width: 345px;
+}
+
+.top-sand{
+  width: 345px;
+}
+
+.bottom-sand{
+  width: 345px;
+}
+
+.ocean{
+  width: 345px;
+}
+
+
+.cloud{
+  width: 7rem;
+}
+
+
+.cloud2{
+  width: 4rem;
+}
+
+
+.cloud3{
+  width: 6rem;
+}
+
+.tree-1 {
+  width: 5rem;
+}
+
+
+.tree-2 {
+  width: 3rem;
+}
+
+
+.coconut1{
+  width: .5rem;
+}
+
+
+.coconut2{
+  width: .4rem;
+}
+
+
+.wood-boat{
+  width: 8rem;
+}
+
+
+.fishing-pole{
+  width: 5rem;
+}
+
+
+.man{
+  width: 2.2rem;
+}
+
+
+.caught-fish{
+  width: .9rem;
+}
+
+
+.bg-fish{
+  width: 1rem;
+}
+
+
+.diver{
+  width: 4rem;
+}
+
+
+.shark{
+  width: 5.5rem;
+}
+
+
+.pink-fish{
+  width: 1.2rem;
+}
+
+
+.orange-fish{
+  width: 1.2rem;
+}
+
+
+.crab{
+  width: 2rem;
+}
+
+
+.seaweed{
+  width: 3rem;
+}
+
+
+.rock-left{
+  width: 5rem;
+}
+
+
+.blue-fish{
+  width: 1.2rem;
+}
+
+
+.pink-coral{
+  width: 3rem;
+}
+
+
+.orange-plant{
+  width: 2rem;
+}
+
+
+.blue-coral{
+  width: 4rem;
+}
+
+
+.orange-coral{
+  width: 4.5rem;
+}
+
+
+.pink-plant{
+  width: 3rem;
+}
+
+
+.seaweed1{
+  width: 3rem;
+}
+
+
+.rock-right{
+  width: 6rem;
+}
+
+}
+
+
+
+
+@media(max-width:300px){
+  .puzzles{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: auto;
+  }
+
+  .top-btns{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .play-body{
+    overflow-x: hidden;
+  }
+  
+  .demo-image{
+    width: 250px;
+    height: 250px;
+  }
+  
+  .edit-box{
+    border-style: dashed;
+    width: 250px;
+    height: 250px;
+  }
+
+  .sky{
+    width: 245px;
+  }
+  
+  .sun{
+    width: 150px;
+  }
+  
+  .cloud-bg{
+    width:245px;
+  }
+  
+  .bg-mount{
+   width: 245px;
+  }
+  
+  .top-sand{
+    width: 245px;
+  }
+  
+  .bottom-sand{
+    width: 245px;
+  }
+  
+  .ocean{
+    width: 245px;
+  }
+  
+  
+  .cloud{
+    width: 6rem;
+  }
+  
+  
+  .cloud2{
+    width: 4rem;
+  }
+  
+  
+  .cloud3{
+    width: 6rem;
+  }
+  
+  .tree-1 {
+    width: 4rem;
+  }
+  
+  
+  .tree-2 {
+    width: 3rem;
+  }
+  
+  
+  .coconut1{
+    width: .5rem;
+  }
+  
+  
+  .coconut2{
+    width: .4rem;
+  }
+  
+  
+  .wood-boat{
+    width: 6rem;
+  }
+  
+  
+  .fishing-pole{
+    width: 4rem;
+  }
+  
+  
+  .man{
+    width: 1.7rem;
+  }
+  
+  
+  .caught-fish{
+    width: .7rem;
+  }
+  
+  
+  .bg-fish{
+    width: 1rem;
+  }
+  
+  
+  .diver{
+    width: 3rem;
+  }
+  
+  
+  .shark{
+    width: 5rem;
+  }
+  
+  
+  .pink-fish{
+    width: 1rem;
+  }
+  
+  
+  .orange-fish{
+    width: 1rem;
+  }
+  
+  
+  .crab{
+    width: 2rem;
+  }
+  
+  
+  .seaweed{
+    width: 2.5rem;
+  }
+  
+  
+  .rock-left{
+    width: 3.5rem;
+  }
+  
+  
+  .blue-fish{
+    width: 1rem;
+  }
+  
+  
+  .pink-coral{
+    width: 3rem;
+  }
+  
+  
+  .orange-plant{
+    width: 2rem;
+  }
+  
+  
+  .blue-coral{
+    width: 4rem;
+  }
+  
+  
+  .orange-coral{
+    width: 4rem;
+  }
+  
+  
+  .pink-plant{
+    width: 2.5rem;
+  }
+  
+  
+  .seaweed1{
+    width: 2.5rem;
+  }
+  
+  
+  .rock-right{
+    width: 4rem;
+  }
+
+
+}

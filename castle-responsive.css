@@ -1,0 +1,1789 @@
+@media(max-width: 1000px){
+
+  html{
+    overflow-x: hidden;
+  }
+
+  .puzzles{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin: auto;  
+  }
+  
+  .demo-image{
+    width: 700px;
+    height: 700px;
+  }
+  
+  .edit-box{
+    border-style: dashed;
+    width: 700px;
+    height: 700px;
+  }
+
+  .moon{
+    width: 175px;
+    height: 175px;
+  }
+  
+  .sky{
+    width: 700px;
+    height: 500px;
+  }
+  
+  .mountains-bg{
+    width: 700px;
+    height: 550px;
+  }
+  
+  .main-trees{
+    width: 700px;
+    height: 300px;
+  }
+  
+  .cliff{
+    width: 550px;
+    height: 400px;
+  }
+  
+  .cave{
+    width: 250px;
+    height: 120px;
+  }
+  
+  .tree1{
+    height: 200px;
+    width: 100px;
+  }
+  
+  .tree2{
+    height: 200px;
+    width: 100px;
+  }
+  
+  .tree3{
+    height: 200px;
+    width: 100px;
+  }
+  
+  .waterfall{
+    width: 280px;
+    height: 230px;
+  }
+  
+  .cloud{
+    width: 150px;
+    height: 40px;
+  }
+  
+  .cloud2{
+    width: 130px;
+    height: 30px;
+  }
+  
+  .cloud3{
+    width: 150px;
+    height: 30px;
+  }
+  
+  .cloud4{
+    width: 200px;
+    height: 40px;
+  }
+  
+  .under-big-triangle{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .for-the-missing-top{
+    width: 40px;
+    height: 40px;
+  }
+
+  /* ////this is the missing top triangle */ 
+  
+  .no-top-flag{
+    width: 43px;
+    height: 48px;
+  }
+  
+  /* /// */
+
+  .biggest-wall{
+    width: 85px;
+    height: 110px;
+  }
+  
+  .wall-next-to-far-left-behind{
+    width: 75px;
+    height: 70px;
+  }
+  
+  .far-left{
+    width: 50px;
+    height: 110px;
+  }
+  
+  .big-right-tower{
+    height: 110px;
+    width: 50px;
+  }
+  
+  .left-wall{
+    width:55px;
+    height: 60px;
+  }
+  
+  .right-wall{
+    width: 55px;
+    height: 60px;
+  }
+  
+  .for-the-door-wall{
+    width: 70px;
+    height: 55px;
+  }
+  
+  .double-left-far{
+    height: 110px;
+    width: 50px;
+  }
+  
+  .door{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .left-next-to-door-tower{
+    height: 100px;
+    width: 50px;
+  }
+  
+  .right-next-to-door-tower{
+    height: 100px;
+    width: 50px;
+  }
+  
+  .main-flag{
+    height: 35px;
+    width: 35px;
+  }
+  
+  .the-missing-triangle{
+    width: 35px;
+    height: 60px;
+  }
+  
+  .triangle-top{
+    width: 70px;
+    height: 80px;
+  }
+  
+  .triangleone{
+    width: 35px;
+    height: 40px;
+  }
+  
+  .triangle{
+    width: 35px;
+    height: 40px;
+  }
+  
+  .last-flag{
+    height: 30px;
+    width: 30px;
+  }
+  
+  .left-flag{
+    height: 30px;
+    width: 30px;
+  }
+  
+  .smallest-right-tower{
+    height: 75px;
+    width: 35px;
+  }
+  
+  .bat1{
+    width: 90px;
+    height: 40px;
+  }
+  
+  .bat2{
+    width: 65px;
+    height: 30px;
+  }
+  
+  .bat3{
+    width: 90px;
+    height: 40px;
+  }
+  
+  .bat4{
+    width: 65px;
+    height: 30px;
+  }
+  
+
+
+}
+
+  @media(max-width: 700px){
+
+    .puzzles{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 20px;
+      margin: auto;
+      
+    }
+    
+    .demo-image{
+      width: 400px;
+      height: 400px;
+    }
+    
+    .edit-box{
+      border-style: dashed;
+      width: 400px;
+      height: 400px;
+    }
+
+    .moon{
+      width: 100px;
+      height: 100px;
+    }
+    
+    .sky{
+      width: 395px;
+      height: 230px;
+    }
+    
+    .mountains-bg{
+      width: 395px;
+      height: 250px;
+    }
+    
+    .main-trees{
+      width: 395px;
+      height: 170px;
+    }
+    
+    .cliff{
+      width: 295px;
+      height: 200px;
+    }
+    
+    .cave{
+      width: 150px;
+      height: 70px;
+    }
+    
+    .tree1{
+      height: 150px;
+      width: 70px;
+    }
+    
+    .tree2{
+      height: 140px;
+      width: 70px;
+    }
+    
+    .tree3{
+      height: 140px;
+      width: 70px;
+    }
+    
+    .waterfall{
+      width: 150px;
+      height: 130px;
+    }
+    
+    .cloud{
+      width: 70px;
+      height: 30px;
+    }
+    
+    .cloud2{
+      width: 90px;
+      height: 30px;
+    }
+    
+    .cloud3{
+      width: 90px;
+      height: 20px;
+    }
+    
+    .cloud4{
+      width: 120px;
+      height: 30px;
+    }
+    
+    .under-big-triangle{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .for-the-missing-top{
+      width: 30px;
+      height: 40px;
+    }
+ 
+    /* ////this is the missing top triangle */ 
+    
+    .no-top-flag{
+      width: 30px;
+      height: 35px;
+    }
+    
+    /* /// */
+
+    .biggest-wall{
+      width: 50px;
+      height: 65px;
+    }
+    
+    .wall-next-to-far-left-behind{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .far-left{
+      width: 30px;
+      height: 60px;
+    }
+    
+    .big-right-tower{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .left-wall{
+      width:30px;
+      height: 35px;
+    }
+    
+    .right-wall{
+      width: 30px;
+      height: 35px;
+    }
+    
+    .for-the-door-wall{
+      width: 40px;
+      height: 35px;
+    }
+    
+    .double-left-far{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .door{
+      width: 20px;
+      height: 22px;
+    }
+    
+    .left-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .right-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .main-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .the-missing-triangle{
+      width: 20px;
+      height: 30px;
+    }
+    
+    .triangle-top{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .triangleone{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .triangle{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .last-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .left-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .smallest-right-tower{
+      height: 45px;
+      width: 30px;
+    }
+    
+    .bat1{
+      width: 50px;
+      height: 30px;
+    }
+    
+    .bat2{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat3{
+      width: 30px;
+      height: 20px;
+    }
+    
+    .bat4{
+      width: 50px;
+      height: 30px;
+    }
+    
+
+  }
+
+
+  @media(max-width:414px){
+    
+    .demo-image{
+      width: 400px;
+      height: 400px;
+    }
+    
+    .edit-box{
+      border-style: dashed;
+      width: 400px;
+      height: 400px;
+    }
+
+    .moon{
+      width: 100px;
+      height: 100px;
+    }
+    
+    .sky{
+      width: 395px;
+      height: 230px;
+    }
+    
+    .mountains-bg{
+      width: 395px;
+      height: 250px;
+    }
+    
+    .main-trees{
+      width: 395px;
+      height: 150px;
+    }
+    
+    .cliff{
+      width: 295px;
+      height: 200px;
+    }
+    
+    .cave{
+      width: 150px;
+      height: 70px;
+    }
+    
+    .tree1{
+      height: 150px;
+      width: 70px;
+    }
+    
+    .tree2{
+      height: 140px;
+      width: 70px;
+    }
+    
+    .tree3{
+      height: 140px;
+      width: 70px;
+    }
+    
+    .waterfall{
+      width: 150px;
+      height: 130px;
+    }
+    
+    .cloud{
+      width: 70px;
+      height: 30px;
+    }
+    
+    .cloud2{
+      width: 90px;
+      height: 30px;
+    }
+    
+    .cloud3{
+      width: 90px;
+      height: 20px;
+    }
+    
+    .cloud4{
+      width: 120px;
+      height: 30px;
+    }
+    
+    .under-big-triangle{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .for-the-missing-top{
+      width: 30px;
+      height: 40px;
+    }
+ 
+    /* ////this is the missing top triangle */ 
+    
+    .no-top-flag{
+      width: 30px;
+      height: 35px;
+    }
+    
+    /* /// */
+
+    .biggest-wall{
+      width: 45px;
+      height: 45px;
+    }
+    
+    .wall-next-to-far-left-behind{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .far-left{
+      width: 30px;
+      height: 60px;
+    }
+    
+    .big-right-tower{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .left-wall{
+      width:30px;
+      height: 35px;
+    }
+    
+    .right-wall{
+      width: 30px;
+      height: 35px;
+    }
+    
+    .for-the-door-wall{
+      width: 40px;
+      height: 35px;
+    }
+    
+    .double-left-far{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .door{
+      width: 20px;
+      height: 22px;
+    }
+    
+    .left-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .right-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .main-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .the-missing-triangle{
+      width: 20px;
+      height: 30px;
+    }
+    
+    .triangle-top{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .triangleone{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .triangle{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .last-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .left-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .smallest-right-tower{
+      height: 45px;
+      width: 30px;
+    }
+    
+    .bat1{
+      width: 50px;
+      height: 30px;
+    }
+    
+    .bat2{
+      width: 50px;
+      height: 30px;
+    }
+    
+    .bat3{
+      width: 50px;
+      height: 30px;
+    }
+    
+    .bat4{
+      width: 50px;
+      height: 30px;
+    }
+    
+
+  }
+
+  @media(max-width:400px){
+    
+    .demo-image{
+      width: 370px;
+      height: 370px;
+    }
+    
+    .edit-box{
+      border-style: dashed;
+      width: 370px;
+      height: 370px;
+    }
+
+    .moon{
+      width: 70px;
+      height: 70px;
+    }
+    
+    .sky{
+      width: 370px;
+      height: 230px;
+    }
+    
+    .mountains-bg{
+      width: 370px;
+      height: 230px;
+    }
+    
+    .main-trees{
+      width: 370px;
+      height: 150px;
+    }
+    
+    .cliff{
+      width: 290px;
+      height: 200px;
+    }
+    
+    .cave{
+      width: 120px;
+      height: 60px;
+    }
+    
+    .tree1{
+      height: 120px;
+      width: 60px;
+    }
+    
+    .tree2{
+      height: 100px;
+      width: 60px;
+    }
+    
+    .tree3{
+      height: 100px;
+      width: 60px;
+    }
+    
+    .waterfall{
+      width: 120px;
+      height: 100px;
+    }
+    
+    .cloud{
+      width: 50px;
+      height: 20px;
+    }
+    
+    .cloud2{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud3{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud4{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .under-big-triangle{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .for-the-missing-top{
+      width: 30px;
+      height: 40px;
+    }
+ 
+    /* ////this is the missing top triangle */ 
+    
+    .no-top-flag{
+      width: 30px;
+      height: 35px;
+    }
+    
+    /* /// */
+
+    .biggest-wall{
+      width: 45px;
+      height: 45px;
+    }
+    
+    .wall-next-to-far-left-behind{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .far-left{
+      width: 30px;
+      height: 60px;
+    }
+    
+    .big-right-tower{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .left-wall{
+      width:30px;
+      height: 35px;
+    }
+    
+    .right-wall{
+      width: 30px;
+      height: 35px;
+    }
+    
+    .for-the-door-wall{
+      width: 40px;
+      height: 35px;
+    }
+    
+    .double-left-far{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .door{
+      width: 20px;
+      height: 22px;
+    }
+    
+    .left-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .right-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .main-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .the-missing-triangle{
+      width: 20px;
+      height: 30px;
+    }
+    
+    .triangle-top{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .triangleone{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .triangle{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .last-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .left-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .smallest-right-tower{
+      height: 45px;
+      width: 30px;
+    }
+    
+    .bat1{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat2{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat3{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat4{
+      width: 40px;
+      height: 20px;
+    }
+    
+  }
+
+  @media(max-width:390px){
+    
+    .demo-image{
+      width: 370px;
+      height: 370px;
+    }
+    
+    .edit-box{
+      border-style: dashed;
+      width: 370px;
+      height: 370px;
+    }
+
+    .moon{
+      width: 70px;
+      height: 70px;
+    }
+    
+    .sky{
+      width: 370px;
+      height: 230px;
+    }
+    
+    .mountains-bg{
+      width: 370px;
+      height: 230px;
+    }
+    
+    .main-trees{
+      width: 370px;
+      height: 150px;
+    }
+    
+    .cliff{
+      width: 290px;
+      height: 200px;
+    }
+    
+    .cave{
+      width: 120px;
+      height: 60px;
+    }
+    
+    .tree1{
+      height: 120px;
+      width: 60px;
+    }
+    
+    .tree2{
+      height: 100px;
+      width: 60px;
+    }
+    
+    .tree3{
+      height: 100px;
+      width: 60px;
+    }
+    
+    .waterfall{
+      width: 120px;
+      height: 100px;
+    }
+    
+    .cloud{
+      width: 50px;
+      height: 20px;
+    }
+    
+    .cloud2{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud3{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud4{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .under-big-triangle{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .for-the-missing-top{
+      width: 30px;
+      height: 40px;
+    }
+ 
+    /* ////this is the missing top triangle */ 
+    
+    .no-top-flag{
+      width: 30px;
+      height: 35px;
+    }
+    
+    /* /// */
+
+    .biggest-wall{
+      width: 45px;
+      height: 45px;
+    }
+    
+    .wall-next-to-far-left-behind{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .far-left{
+      width: 30px;
+      height: 60px;
+    }
+    
+    .big-right-tower{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .left-wall{
+      width:30px;
+      height: 35px;
+    }
+    
+    .right-wall{
+      width: 30px;
+      height: 35px;
+    }
+    
+    .for-the-door-wall{
+      width: 40px;
+      height: 35px;
+    }
+    
+    .double-left-far{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .door{
+      width: 20px;
+      height: 22px;
+    }
+    
+    .left-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .right-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .main-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .the-missing-triangle{
+      width: 20px;
+      height: 30px;
+    }
+    
+    .triangle-top{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .triangleone{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .triangle{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .last-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .left-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .smallest-right-tower{
+      height: 45px;
+      width: 30px;
+    }
+    
+    .bat1{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat2{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat3{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat4{
+      width: 40px;
+      height: 20px;
+    }
+    
+  }
+
+  @media(max-width:375px){
+    
+    .demo-image{
+      width: 355px;
+      height: 355px;
+    }
+    
+    .edit-box{
+      border-style: dashed;
+      width: 355px;
+      height: 355px;
+    }
+
+    .moon{
+      width: 70px;
+      height: 70px;
+    }
+    
+    .sky{
+      width: 355px;
+      height: 230px;
+    }
+    
+    .mountains-bg{
+      width: 355px;
+      height: 230px;
+    }
+    
+    .main-trees{
+      width: 355px;
+      height: 150px;
+    }
+    
+    .cliff{
+      width: 290px;
+      height: 200px;
+    }
+    
+    .cave{
+      width: 120px;
+      height: 60px;
+    }
+    
+    .tree1{
+      height: 120px;
+      width: 60px;
+    }
+    
+    .tree2{
+      height: 100px;
+      width: 60px;
+    }
+    
+    .tree3{
+      height: 100px;
+      width: 60px;
+    }
+    
+    .waterfall{
+      width: 120px;
+      height: 100px;
+    }
+    
+    .cloud{
+      width: 50px;
+      height: 20px;
+    }
+    
+    .cloud2{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud3{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud4{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .under-big-triangle{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .for-the-missing-top{
+      width: 30px;
+      height: 40px;
+    }
+ 
+    /* ////this is the missing top triangle */ 
+    
+    .no-top-flag{
+      width: 30px;
+      height: 35px;
+    }
+    
+    /* /// */
+
+    .biggest-wall{
+      width: 45px;
+      height: 45px;
+    }
+    
+    .wall-next-to-far-left-behind{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .far-left{
+      width: 30px;
+      height: 60px;
+    }
+    
+    .big-right-tower{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .left-wall{
+      width:30px;
+      height: 35px;
+    }
+    
+    .right-wall{
+      width: 30px;
+      height: 35px;
+    }
+    
+    .for-the-door-wall{
+      width: 40px;
+      height: 35px;
+    }
+    
+    .double-left-far{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .door{
+      width: 20px;
+      height: 22px;
+    }
+    
+    .left-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .right-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .main-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .the-missing-triangle{
+      width: 20px;
+      height: 30px;
+    }
+    
+    .triangle-top{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .triangleone{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .triangle{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .last-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .left-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .smallest-right-tower{
+      height: 45px;
+      width: 30px;
+    }
+    
+    .bat1{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat2{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat3{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat4{
+      width: 40px;
+      height: 20px;
+    }
+    
+  }
+
+  @media(max-width:360px){
+    .demo-image{
+      width: 350px;
+      height: 350px;
+    }
+    
+    .edit-box{
+      border-style: dashed;
+      width: 350px;
+      height: 350px;
+    }
+
+    .moon{
+      width: 70px;
+      height: 70px;
+    }
+    
+    .sky{
+      width: 355px;
+      height: 230px;
+    }
+    
+    .mountains-bg{
+      width: 355px;
+      height: 230px;
+    }
+    
+    .main-trees{
+      width: 355px;
+      height: 150px;
+    }
+    
+    .cliff{
+      width: 290px;
+      height: 200px;
+    }
+    
+    .cave{
+      width: 120px;
+      height: 60px;
+    }
+    
+    .tree1{
+      height: 120px;
+      width: 60px;
+    }
+    
+    .tree2{
+      height: 100px;
+      width: 60px;
+    }
+    
+    .tree3{
+      height: 100px;
+      width: 60px;
+    }
+    
+    .waterfall{
+      width: 120px;
+      height: 100px;
+    }
+    
+    .cloud{
+      width: 50px;
+      height: 20px;
+    }
+    
+    .cloud2{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud3{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud4{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .under-big-triangle{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .for-the-missing-top{
+      width: 30px;
+      height: 40px;
+    }
+ 
+    /* ////this is the missing top triangle */ 
+    
+    .no-top-flag{
+      width: 30px;
+      height: 35px;
+    }
+    
+    /* /// */
+
+    .biggest-wall{
+      width: 45px;
+      height: 45px;
+    }
+    
+    .wall-next-to-far-left-behind{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .far-left{
+      width: 30px;
+      height: 60px;
+    }
+    
+    .big-right-tower{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .left-wall{
+      width:30px;
+      height: 35px;
+    }
+    
+    .right-wall{
+      width: 30px;
+      height: 35px;
+    }
+    
+    .for-the-door-wall{
+      width: 40px;
+      height: 35px;
+    }
+    
+    .double-left-far{
+      height: 60px;
+      width: 30px;
+    }
+    
+    .door{
+      width: 20px;
+      height: 22px;
+    }
+    
+    .left-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .right-next-to-door-tower{
+      height: 50px;
+      width: 30px;
+    }
+    
+    .main-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .the-missing-triangle{
+      width: 20px;
+      height: 30px;
+    }
+    
+    .triangle-top{
+      width: 40px;
+      height: 40px;
+    }
+    
+    .triangleone{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .triangle{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .last-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .left-flag{
+      height: 20px;
+      width: 20px;
+    }
+    
+    .smallest-right-tower{
+      height: 45px;
+      width: 30px;
+    }
+    
+    .bat1{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat2{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat3{
+      width: 40px;
+      height: 20px;
+    }
+    
+    .bat4{
+      width: 40px;
+      height: 20px;
+    }
+    
+
+
+  }
+
+
+  @media(max-width:300px){
+    .top-btns{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      width: 70%;
+      margin: 10px auto;
+    }
+
+    .demo-image{
+      width: 250px;
+      height: 250px;
+    }
+    
+    .edit-box{
+      border-style: dashed;
+      width: 250px;
+      height: 250px;
+    }
+
+    .moon{
+      width: 70px;
+      height: 70px;
+    }
+    
+    .sky{
+      width: 245px;
+      height: 150px;
+    }
+    
+    .mountains-bg{
+      width: 245px;
+      height: 180px;
+    }
+    
+    .main-trees{
+      width: 245px;
+      height: 100px;
+    }
+    
+    .cliff{
+      width: 210px;
+      height: 130px;
+    }
+    
+    .cave{
+      width: 100px;
+      height: 50px;
+    }
+    
+    .tree1{
+      height: 70px;
+      width: 40px;
+    }
+    
+    .tree2{
+      height: 70px;
+      width: 40px;
+    }
+    
+    .tree3{
+      height: 70px;
+      width: 40px;
+    }
+    
+    .waterfall{
+      width: 90px;
+      height: 90px;
+    }
+    
+    .cloud{
+      width: 50px;
+      height: 20px;
+    }
+    
+    .cloud2{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud3{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .cloud4{
+      width: 70px;
+      height: 15px;
+    }
+    
+    .under-big-triangle{
+      width: 30px;
+      height: 30px;
+    }
+    
+    .for-the-missing-top{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .no-top-flag{
+      width: 20px;
+      height: 20px;
+    }
+    
+    .biggest-wall{
+      width: 35px;
+      height: 35px;
+    }
+    
+    .wall-next-to-far-left-behind{
+      width: 30px;
+      height: 30px;
+    }
+    
+    .far-left{
+      width: 20px;
+      height: 50px;
+    }
+    
+    .big-right-tower{
+      height: 50px;
+      width: 20px;
+    }
+    
+    .left-wall{
+      width:20px;
+      height: 25px;
+    }
+    
+    .right-wall{
+      width: 20px;
+      height: 25px;
+    }
+    
+    .for-the-door-wall{
+      width: 30px;
+      height: 25px;
+    }
+    
+    .double-left-far{
+      height: 50px;
+      width: 20px;
+    }
+    
+    .door{
+      width: 15px;
+      height: 15px;
+    }
+    
+    .left-next-to-door-tower{
+      height: 40px;
+      width: 20px;
+    }
+    
+    .right-next-to-door-tower{
+      height: 40px;
+      width: 20px;
+    }
+    
+    .main-flag{
+      height: 15px;
+      width: 15px;
+    }
+    
+    .the-missing-triangle{
+      width: 15px;
+      height: 20px;
+    }
+    
+    .triangle-top{
+      width: 30px;
+      height: 30px;
+    }
+    
+    .triangleone{
+      width: 15px;
+      height: 15px;
+    }
+    
+    .triangle{
+      width: 15px;
+      height: 15px;
+    }
+    
+    .last-flag{
+      height: 15px;
+      width: 15px;
+    }
+    
+    .left-flag{
+      height: 15px;
+      width: 15px;
+    }
+    
+    .smallest-right-tower{
+      height: 35px;
+      width: 20px;
+    }
+    
+    .bat1{
+      width: 30px;
+      height: 15px;
+    }
+    
+    .bat2{
+      width: 30px;
+      height: 15px;
+    }
+    
+    .bat3{
+      width: 30px;
+      height: 15px;
+    }
+    
+    .bat4{
+      width: 30px;
+      height: 15px;
+    }
+    
+    
+  }

@@ -66,7 +66,7 @@ class Draggable {
         onUpHandler(e) {
           clearInterval(this.scrollInterval);
           document.removeEventListener(this.onMove, this.onMoveHandler);
-
+         
         }
         
       }

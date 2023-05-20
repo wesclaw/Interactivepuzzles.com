@@ -1,4 +1,8 @@
    
+
+const save_image_btn = document.getElementById('save-image-btn')
+
+
 class Draggable {
      
   constructor(el) {
@@ -62,6 +66,7 @@ class Draggable {
         onUpHandler(e) {
           clearInterval(this.scrollInterval);
           document.removeEventListener(this.onMove, this.onMoveHandler);
+
         }
         
       }
@@ -79,6 +84,10 @@ const resetBtn = document.getElementById('reset-btn')
 
     
       
+
+
+
+
       
 
   
